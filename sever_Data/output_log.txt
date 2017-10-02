@@ -1,0 +1,109 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\sever_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.809570 ms
+Begin Network_Server
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 6b60 -> priority: 1 
+  Thread -> id: 47a4 -> priority: 1 
+Ready
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ready
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Send: Seed/1864544128
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Send: PlayerNum/1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Send: Seed/1864544128
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Send: PlayerNum/2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ready
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Received: Ready/2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Received: Ready/1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Send: Start
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Send: Start
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Received: GameOver/2,45.50084
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Received: GameOver/1,45.50084
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0: Send: GameEnd
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Send: GameEnd
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다.
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Welcome Dead
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
