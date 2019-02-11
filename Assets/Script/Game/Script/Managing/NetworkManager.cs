@@ -50,16 +50,8 @@ public class NetworkManager : GameManagerBase {
         PlayerControlThree target;
         PlayerControlThree Opposite;
         int playernumber = int.Parse(MessageArray[0]);
-        if (playernumber.Equals(this.playerNumber))
-        {
-            target = ManagerHandler.Instance.GameManager().GetPlayer();
-            Opposite = ManagerHandler.Instance.GameManager().GetEnemy();
-        }
-        else
-        {
-            target = ManagerHandler.Instance.GameManager().GetEnemy();
-            Opposite = ManagerHandler.Instance.GameManager().GetPlayer();
-        }
+
+        target = ManagerHandler.Instance.GameManager().GetPlayer();
 
         WaitUntil messageWait = new WaitUntil(() => targetTime <= ManagerHandler.Instance.GameTime().GetTimePass());
         yield return messageWait;
@@ -75,7 +67,7 @@ public class NetworkManager : GameManagerBase {
                 break;
             case "Skill":
                 Vector3 skillVector = new Vector3(float.Parse(MessageArray[2]), float.Parse(MessageArray[3]), float.Parse(MessageArray[4]));
-                StartCoroutine(SendMessageToSkillUse(int.Parse(MessageArray[1]), target, Opposite.gameObject, target.HQ.gameObject, skillVector, float.Parse(MessageArray[5])));
+                StartCoroutine(SendMessageToSkillUse(int.Parse(MessageArray[1]), target, target.HQ.gameObject, skillVector, float.Parse(MessageArray[5])));
                 break;
             case "Out":
                 target.SetPlayerState(PlayerSearchState.BACKTOHOME);
@@ -83,12 +75,12 @@ public class NetworkManager : GameManagerBase {
         }
     }
 
-    private IEnumerator SendMessageToSkillUse(int num, PlayerControlThree Player, GameObject Enemy, GameObject HQ, Vector3 HV, float useTime)
+    private IEnumerator SendMessageToSkillUse(int num, PlayerControlThree Player, GameObject HQ, Vector3 HV, float useTime)
     {
         Vector3 targetVector = HQ.transform.position - HV;
         float angle = Mathf.Atan2(targetVector.x, targetVector.z) * Mathf.Rad2Deg;
         yield return new WaitUntil(() => ManagerHandler.Instance.GameTime().GetTimePass() >= (useTime + delayTime));
-        ManagerHandler.Instance.SkillManager().UsingSkill(num, Player, Enemy, ManagerHandler.Instance.GameManager().GetPlanetTransform(), HQ.gameObject.transform, angle, HV);
+        ManagerHandler.Instance.SkillManager().UsingSkill(num, Player, ManagerHandler.Instance.GameManager().GetPlanetTransform(), HQ.gameObject.transform, angle, HV);
     }
 
     public void SendReadyToServer()

@@ -232,16 +232,7 @@ public class PlayerControlThree : MonoBehaviour {
         else if (PSS == PlayerSearchState.ENEMYSEARCH)
         {
             // 적 추적시 매커니즘.
-            GameObject Target;
-            if (ManagerHandler.Instance.GameManager().GetEnemy().gameObject.Equals(this.gameObject))
-            {
-                Target = ManagerHandler.Instance.GameManager().GetPlayer().gameObject;
-            }
-            else
-            {
-                Target = ManagerHandler.Instance.GameManager().GetEnemy().gameObject;
-            }
-            targetObject = Target;
+            // 일단 없애놓고 나중에 추가할까 생각중.
         }
 
         yield return null;

@@ -53,11 +53,11 @@ public class SkillManager : GameManagerBase
         }
     }
 
-    public void UsingSkill(int SkillNumber, PlayerControlThree Owner, GameObject Target, Transform Pivot, Transform Pivotrotation,float angle, Vector3 skillVector)
+    public void UsingSkill(int SkillNumber, PlayerControlThree Owner, Transform Pivot, Transform Pivotrotation,float angle, Vector3 skillVector)
     {
         GameObject ActivatedSkill = Instantiate(SkillDB.skillPrefab[SkillNumber]);
         SkillBase ActivatedSkillInit = ActivatedSkill.GetComponent<SkillBase>();
-        ActivatedSkillInit.SetInstance(Owner, Target);
+        ActivatedSkillInit.SetInstance(Owner, null);        //원래 상대방의 GameObject를 넘겨야하는데 일단 임시로 null로 만듦.
         ActivatedSkillInit.SetPivot(Pivot,Pivotrotation,angle,skillVector);
         SetSkillPanelSkillDelay();
     }

@@ -42,9 +42,9 @@ public class NetworkMessageSender
         PushLogToDatabase(targetMessage);
     }
 
-    public void SendPlayerEnemyPositionToServer(Vector3 playerPosition, int playerNum, Vector3 enemyPosition, float messageSendTime)
+    public void SendPlayerEnemyPositionToServer(Vector3 playerPosition, int playerNum, float messageSendTime)
     {
-        targetMessage = "Position/" + playerNum + "," + playerPosition + "," + enemyPosition + "," + (messageSendTime + timeDelay);
+        targetMessage = "Position/" + playerNum + "," + playerPosition + "," + (messageSendTime + timeDelay);
         PushLogToDatabase(targetMessage);
     }
 

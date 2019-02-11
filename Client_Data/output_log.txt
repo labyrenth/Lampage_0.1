@@ -7,46 +7,46 @@ Direct3D:
     VRAM:     4053 MB
     Driver:   22.21.13.8205
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.App.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.App.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.Auth.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.Auth.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.Database.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Firebase.Database.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Google.MiniJson.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Google.MiniJson.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Google.Sharpen.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Google.Sharpen.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Unity.Compat.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Unity.Compat.dll into Unity Child Domain
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Unity.Tasks.dll (this message is harmless)
-Loading C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Unity.Tasks.dll into Unity Child Domain
-- Completed reload, in  0.995 seconds
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.App.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.App.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.Auth.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.Auth.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.Database.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Firebase.Database.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Google.MiniJson.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Google.MiniJson.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Google.Sharpen.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Google.Sharpen.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Unity.Compat.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Unity.Compat.dll into Unity Child Domain
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Unity.Tasks.dll (this message is harmless)
+Loading C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Unity.Tasks.dll into Unity Child Domain
+- Completed reload, in  0.027 seconds
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 93.002808 ms
+UnloadTime: 1.069880 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3e7c -> priority: 1 
-  Thread -> id: 12a4 -> priority: 1 
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\Mono.Security.dll (this message is harmless)
+  Thread -> id: 3bc8 -> priority: 1 
+  Thread -> id: 1f40 -> priority: 1 
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\Mono.Security.dll (this message is harmless)
 NMR created
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\System.Configuration.dll (this message is harmless)
-Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGiTemp\YangChiGi_3.0-sync\Client_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\ak569\Desktop\작업\YangChiGi_5.0\YangChiGi_5.0-sync\Lampage_0.1\Client_Data\Managed\System.Xml.dll (this message is harmless)
 StartConnect
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -59,7 +59,7 @@ Connected.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Received: Seed/497369468
+Received: Seed/1290357927
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -76,10 +76,10 @@ SetLogReference
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.935488 ms
+UnloadTime: 2.693549 ms
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 4.589589 ms (FindLiveObjects: 0.126538 ms CreateObjectMapping: 0.050557 ms MarkObjects: 4.307287 ms  DeleteObjects: 0.104328 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 5.710605 ms (FindLiveObjects: 0.153424 ms CreateObjectMapping: 0.038867 ms MarkObjects: 5.298550 ms  DeleteObjects: 0.218008 ms)
 
 Send: Ready/1
  
@@ -89,11 +89,11 @@ Received: Start
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-5.519996,5.059996
+5.519996,5.039996
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-10.52004,10.06004
+10.52004,10.04004
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -121,15 +121,15 @@ Received: Start
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-45.52084,45.06084
+45.52084,45.04084
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-50.52095,50.06096
+50.52095,50.04095
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-55.52107,55.06107
+55.52107,55.04107
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -230,46 +230,6 @@ Received: Start
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Send: GameOver/1,180.5016
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Received: GameEnd
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Disconnected.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Get
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.383488 ms
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 499.
-Total: 6.622100 ms (FindLiveObjects: 0.141442 ms CreateObjectMapping: 0.022794 ms MarkObjects: 6.296547 ms  DeleteObjects: 0.159561 ms)
-
-Send: Network Disconnected.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Cancle
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.632986 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 525.
-Total: 5.321059 ms (FindLiveObjects: 0.105789 ms CreateObjectMapping: 0.022794 ms MarkObjects: 5.167926 ms  DeleteObjects: 0.023378 ms)
-
-Send: Network Disconnected.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SHUT DOWN
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

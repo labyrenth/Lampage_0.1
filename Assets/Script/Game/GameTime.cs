@@ -9,7 +9,7 @@ public class GameTime : GameManagerBase {
     private float startTime;
     private float initialtime;
 
-    public static float FrameRate_60_Time = 1.67f;
+    public static float FrameRate_60_Time = 0.0167f;
 
     protected override void Start () {
         base.Start();

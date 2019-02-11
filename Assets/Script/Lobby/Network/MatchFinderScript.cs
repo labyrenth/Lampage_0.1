@@ -49,6 +49,5 @@ public class MatchFinderScript : MonoBehaviour {
             return;
         }
         // Do something with the data in args.Snapshot
-        Debug.Log(args.Snapshot.Value.ToString());
     }
 }

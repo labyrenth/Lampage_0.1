@@ -18,7 +18,6 @@ public class GameUIManager : GameManagerBase {
 
     //플레이어
     private PlayerControlThree player;
-    private PlayerControlThree enemy;
 
     protected override void Awake()
     {
@@ -126,7 +125,7 @@ public class GameUIManager : GameManagerBase {
         EndScreen.SetActive(false);
         ManagerHandler.Instance.GameTime().StartTimer();
         player = ManagerHandler.Instance.GameManager().GetPlayer();
-        enemy = ManagerHandler.Instance.GameManager().GetEnemy();
+
         AudioManager.Instance.InitEffectAudio();
         AudioManager.Instance.PlayBackGroundClipByName("Battle", 0f);
     }
@@ -141,7 +140,7 @@ public class GameUIManager : GameManagerBase {
         AudioManager.Instance.PlayEffectClipByName("Whistle2", 0f, 3f);
 
         PlayManage.Instance.PlayerScore = player.HQ.GetHQHerd().GetHerdSheepCount();
-        PlayManage.Instance.EnemyScore = enemy.HQ.GetHQHerd().GetHerdSheepCount();
+
         ManagerHandler.Instance.GameTime().StopTimer();
         yield return new WaitForSeconds(3f);
         Debug.Log("End");
@@ -165,7 +164,6 @@ public class GameUIManager : GameManagerBase {
             Showremainingtime();
             ShowMySheep();
             ShowScore(player.HQ.GetHQHerd().GetHerdSheepCount());
-            ShowEnemyScore(enemy.HQ.GetHQHerd().GetHerdSheepCount());
         }
     }
 

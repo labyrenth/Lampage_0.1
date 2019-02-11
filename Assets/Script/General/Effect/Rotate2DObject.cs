@@ -18,7 +18,7 @@ public class Rotate2DObject : MonoBehaviour {
     private Vector3 iconRotationVector;
     private void OnEnable()
     {
-        iconRotationValue = Mathf.Round(rotateAnglePerFrame * GameTime.FrameRate_60_Time ) * 0.01f;
+        iconRotationValue = rotateAnglePerFrame * GameTime.FrameRate_60_Time;
         if (rotateAxis.Equals(RotateAxis.X))
         {
             iconRotationVector = Vector3.right * iconRotationValue;

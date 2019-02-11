@@ -40,14 +40,9 @@ public class CameraControl : MonoBehaviour
         camParent.transform.position = pivotPoint.position;        //place the new gameObject at pivotPoint location
         transform.parent = camParent.transform;                    //make this camera a child of the new gameObject
         camParent.transform.parent = originalParent;            //make the new gameobject a child of the original camera parent if it had one
-        if (KingGodClient.Instance.playerNum == 1)
-        {
-            Player = GameObject.Find("PlayerOne");
-        }
-        else if (KingGodClient.Instance.playerNum == 2)
-        {
-            Player = GameObject.Find("PlayerTwo");
-        }
+
+        Player = GameObject.Find("Player");
+
         cameraAdjustQuaternion = Quaternion.Euler(new Vector3(90, 0, 0));
 
         camParent.transform.rotation = Player.transform.rotation * cameraAdjustQuaternion;

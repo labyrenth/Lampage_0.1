@@ -9,16 +9,14 @@ public class GameManager : GameManagerBase {
 
     //게임플레이에 관련된 변수.
     private GameObject Planet;
-    public GameObject Enemy;
     private int playerNumber;
-    public GameObject Player;
+    public PlayerControlThree PlayerControl;
+    public HQControl HQ;
     private GameObject Sheephorde;
     private GameObject sheepPrefab;
     /*public GameObject silversheepprefab;
     public GameObject goldensheepprefab;*/
     private GameObject BackGround;
-
-    private HQControl HQ;
 
     private List<SheepControlThree> hordeSheepList;
     private List<SheepControlThree> owneredSheepList;
@@ -32,12 +30,7 @@ public class GameManager : GameManagerBase {
 
     public PlayerControlThree GetPlayer()
     {
-        return Player.GetComponent<PlayerControlThree>();
-    }
-
-    public PlayerControlThree GetEnemy()
-    {
-        return Enemy.GetComponent<PlayerControlThree>();
+        return PlayerControl;
     }
 
     protected override void Awake()
@@ -74,8 +67,6 @@ public class GameManager : GameManagerBase {
         //Start에서 실행하던 함수
         midTime = 0;
         this.playerNumber = KingGodClient.Instance.playerNum;
-        string HQname = "HQ" + playerNumber;
-        HQ = GameObject.Find(HQname).GetComponent<HQControl>();
         InitPlayer();
         SheepSpawn(sheepPrefab, PlanetScale, initialSheep+36, initialSheep);
         ObjectSpawn(GrassPrefab, PlanetScale + 0.5f, 50);
@@ -85,20 +76,9 @@ public class GameManager : GameManagerBase {
 
     private void InitPlayer()
     {
-        if (playerNumber == 1)
-        {
-            Player = GameObject.Find("PlayerOne");
-            Enemy = GameObject.Find("PlayerTwo");
-        }
-        else if (playerNumber == 2)
-        {
-            Player = GameObject.Find("PlayerTwo");
-            Enemy = GameObject.Find("PlayerOne");
-        }
         Color playerColor = new Color(50 / 255f, 75 / 255f, 200 / 255f, 1);
         Color EnemyColor = new Color(200 / 255f, 50 / 255f, 75 / 255f, 1);
-        Player.GetComponent<PlayerControlThree>().SetSymbolColor(playerColor);
-        Enemy.GetComponent<PlayerControlThree>().SetSymbolColor(EnemyColor);
+        PlayerControl.SetSymbolColor(playerColor);
         Debug.Log("Search Complete");
     }
 
@@ -109,7 +89,7 @@ public class GameManager : GameManagerBase {
         for (int i = 0; i < maxSheepNum; i++)
         {
             Vector3 newposition = Random.onUnitSphere * scale;
-            if (Vector3.Distance(newposition, Player.transform.position) > 4 && Vector3.Distance(newposition, Enemy.transform.position) > 4)
+            if (Vector3.Distance(newposition, PlayerControl.transform.position) > 4 && Vector3.Distance(newposition, HQ.transform.position) > 4)
             {
                 GameObject tempSheep = Instantiate(sheepprefab, newposition, Quaternion.Euler(0, 0, 0), Sheephorde.transform);
                 tempSheep.transform.rotation = Quaternion.FromToRotation(tempSheep.transform.up, newposition) * tempSheep.transform.rotation;
@@ -131,7 +111,7 @@ public class GameManager : GameManagerBase {
         for (int i = 0; i < number; i++)
         {
             Vector3 newposition = Random.onUnitSphere * scale;
-            if (Vector3.Distance(newposition, Player.transform.position) > 4 && Vector3.Distance(newposition, Enemy.transform.position) > 4)
+            if (Vector3.Distance(newposition, PlayerControl.transform.position) > 4 && Vector3.Distance(newposition, HQ.transform.position) > 4)
             {
                 GameObject tempObject = Instantiate(Objectprefab, newposition, Quaternion.Euler(0, 0, 0), BackGround.transform);
                 tempObject.transform.rotation = Quaternion.FromToRotation(tempObject.transform.up, newposition) * tempObject.transform.rotation;
@@ -147,6 +127,7 @@ public class GameManager : GameManagerBase {
     {
         hordeSheepList.Remove(target);
         owneredSheepList.Add(target);
+        DecreaseCurrentSheepNum();
     }
 
     private void SheepReActive()
@@ -165,6 +146,11 @@ public class GameManager : GameManagerBase {
         return this.currentSheepNum;
     }
 
+    private void DecreaseCurrentSheepNum()
+    {
+        this.currentSheepNum -= 1;
+    }
+
     // Update is called once per frame
     private void FixedUpdate()
     {
@@ -173,7 +159,7 @@ public class GameManager : GameManagerBase {
         if (ManagerHandler.Instance.GameTime().GetTimePass() - midTime > 5)
         {
             midTime = ManagerHandler.Instance.GameTime().GetTimePass();
-            KingGodClient.Instance.GetNetworkMessageSender().SendPlayerEnemyPositionToServer(this.Player.transform.position, this.playerNumber, this.Enemy.transform.position, ManagerHandler.Instance.GameTime().GetTimePass());
+            KingGodClient.Instance.GetNetworkMessageSender().SendPlayerEnemyPositionToServer(this.PlayerControl.transform.position, this.playerNumber, ManagerHandler.Instance.GameTime().GetTimePass());
             SheepReActive();
         }
     }
